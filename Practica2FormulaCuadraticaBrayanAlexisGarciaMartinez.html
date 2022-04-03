@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2 JS</title>
+</head>
+    <body> 
+    <h2> <center> Segunda Practica en JS </center></h2>
+    
+    
+    <h3><center>Brayan Alexis Garcia Martinez </center></h3>
+    <script>
+
+     let a=prompt("Introduce el valor a");
+     let b=prompt("Introduce el valor b");
+     let c=prompt("Introduce el valor c");  
+   
+    function calculoRaices(a,b,c){
+        let raiz1=(-b+Math.sqrt(b*b-4*a*c))/2*a;
+        let raiz2=(-b-Math.sqrt(b*b-4*a*c))/2*a;
+        return[raiz1,raiz2];
+    }
+
+     let r=calculoRaices(a,b,c);
+     alert("Raices: "+r);
+
+    </script>
+      
+        
+ </head>   
+</body>
+</html>
