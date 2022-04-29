@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 4 JS</title>
+</head>
+    <body> 
+    <h2> <center> Cuarta Practica en JS </center></h2>
+    
+    
+    <h3><center>Brayan Alexis Garcia Martinez </center></h3>
+    <script>
+
+    let opcion="s";    
+    while(opcion=="s"){
+    let n1=parseInt(prompt("Introduce un numero"));
+    let op=prompt("Ingresa un Operador","");
+    let n2=parseInt(prompt("Introduce otro numero"));
+        if(op=="+"){
+        let r=n1+n2;
+        console.log("El resultado es: "+r);
+    }else if(op=="-"){
+        r=n1-n2;
+        console.log("El resultado es: "+r);
+    }
+    else if(op=="*"){
+        r=n1*n2;
+        console.log("El resultado es: "+r);
+    }
+    else if(op=="/"){
+        r=n1/n2;
+        console.log("El resultado es: "+r);
+    }
+    else if(op=="%"){
+        r=(n1*n2)/100;
+        console.log("El resultado es: "+r);
+    }
+    opcion= prompt("¿Desea volver a ejecutar otra operación s/n?","");
+    }
+    console.log("Muchas Gracias por usar la Aplicacion");
+
+    </script>
+      
+        
+ </head>   
+</body>
+</html>
